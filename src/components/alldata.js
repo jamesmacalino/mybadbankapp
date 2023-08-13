@@ -28,7 +28,7 @@ function AllData() {
         </table>
         <br />
         Submissions
-        <table className="table table-dark" width={50}>
+        <table className="table table-dark" >
           <thead>
             <tr>
               <th scope="col">Type</th>
