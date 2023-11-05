@@ -1,5 +1,6 @@
 import { Route, HashRouter, Routes, useNavigate } from "react-router-dom";
 import CreateAccount from "./components/createaccount";
+import Balance from "./components/balance";
 import Withdraw from "./components/withdraw";
 import Home from "./components/home";
 import Deposit from "./components/deposit";
@@ -40,6 +41,7 @@ function App() {
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/CreateAccount/" element={<CreateAccount />} />
+          <Route path="/balance/" element={<Balance />} />
           <Route path="/deposit/" element={<Deposit />} />
           <Route path="/withdraw/" element={<Withdraw />} />
           <Route path="/alldata/" element={<AllData />} />
