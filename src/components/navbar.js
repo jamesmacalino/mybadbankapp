@@ -15,6 +15,9 @@ function NavBar(){
               <Link className={`nav-link ${location.pathname == '/CreateAccount/' ? 'active' : ''}`} to="/CreateAccount/">Create Account</Link>
             </li>
             <li className="nav-item">
+              <Link className={`nav-link ${location.pathname == '/balance/' ? 'active' : ''}`} to="/balance/">Account Balance</Link>
+            </li>
+            <li className="nav-item">
               <Link className={`nav-link ${location.pathname == '/deposit/' ? 'active' : ''}`} to="/deposit/">Deposit</Link>
             </li>
             <li className="nav-item">
